@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText passwordEdTxt;
     private Button loginBtn;
     private Button registrationBtn;
-    private static String FILE_LOGIN = "login.txt";
-    private static String FILE_PASSWORD = "password.txt";
+    private static final String FILE_LOGIN = "login.txt";
+    private static final String FILE_PASSWORD = "password.txt";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
